@@ -13,7 +13,7 @@ function mulberry32(a) {
     }
 }
 ```
-## Version 2: Oneline Assigned to Variable
+## Version 2: Oneliner Assigned to Variable
 ###### Credit: https://gist.github.com/blixt/f17b47c62508be59987b
 ```
 var mb32=a=>(t)=>(a=a+1831565813|0,t=Math.imul(a^a>>>15,1|a),t=t+Math.imul(t^t>>>7,61|t)^t,(t^t>>>14)>>>0)/2**32;
