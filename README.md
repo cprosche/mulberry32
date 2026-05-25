@@ -1,8 +1,8 @@
-# Mulberry32 in Javascript
-A fast, seedable, psuedo-random number generator for Javascript.
+# Mulberry32 in JavaScript
+A fast, seedable, pseudo-random number generator for JavaScript.
 
 ## Why is this useful? 
-This is useful in situation the you need to generate random numbers a list of random numbers, but you want to generate the same ones every time. 
+This is useful in situation the you need to generate random numbers or a list of random numbers, but you want to generate the same ones every time. 
 
 In [this video](https://www.youtube.com/watch?v=ALKqavp9Fg0&ab_channel=GoogleChromeDevelopers), the Google Chrome Developers team uses Mulberry32 to generate a CSS texture that is always the same.
 
